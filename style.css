@@ -73,6 +73,7 @@ li{
 }
 .content{
     padding:0px 150px;
+    padding-bottom: 30px;
 }
 
 
@@ -92,4 +93,59 @@ li{
 .content-main > img{
     border: 5px solid #3882f6;
     border-radius: 20px;
+}
+
+.quote{
+    background: #e5e7eb;
+    padding:70px 150px;
+}
+
+.q{
+    font-size: 36px;
+    font-style: italic;
+    color:#1f2937;
+}
+
+.bywho{
+    font-size: 25px;
+    font-weight: bold;
+    columns: 26px;
+    color: #1F2937;
+}
+
+.call-to-action{
+    padding:70px 150px;
+}
+
+.contentc{
+    background:#3882f6;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    align-items: center;
+}
+
+.headerc{
+    font-weight: bold;
+    color: #e5e7eb;
+    font-size: 25px;
+}
+
+.subtext{
+    font-size: medium;
+    color: #e5e7eb;
+}
+
+.contentc > .btn{
+    border: #e5e7eb;
+}
+
+footer{
+    display: flex;
+    background: #1F2937;
+    justify-content: center;
+    padding:20px 150px;
+    font-size: 18px;
+    color:#e5e7eb;
 }
