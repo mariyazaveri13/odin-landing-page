@@ -64,3 +64,32 @@ li{
 .hero-img{
     margin: 50px;
 }
+.content-header{
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    color:#1f2937;
+    padding: 25px;
+}
+.content{
+    padding:0px 150px;
+}
+
+
+.content-main{
+    display: flex;
+    flex-direction: column;
+    max-width: 170px;
+    text-align: center;
+}
+
+.content-img{
+    display: flex;
+    justify-content: center;
+    gap:40px
+}
+
+.content-main > img{
+    border: 5px solid #3882f6;
+    border-radius: 20px;
+}
